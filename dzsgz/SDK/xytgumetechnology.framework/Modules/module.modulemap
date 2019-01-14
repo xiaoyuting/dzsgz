@@ -1,0 +1,6 @@
+framework module xytgumetechnology {
+  umbrella header "xytgumetechnology.h"
+
+  export *
+  module * { export * }
+}
