@@ -1,0 +1,22 @@
+/* 
+  wfnji.strings
+  xytgumetechnology
+
+  Created by GM on 2019/1/2.
+  Copyright © 2019年 gumo. All rights reserved.
+*/
+"app_name"="The Castellan of The Three Kingdoms";
+"wfnji_change_acount" = "Switch account";
+"wfnji_choose_logintype" = "Sign in with";
+"wfnji_login_fast" = "GUEST";
+"wfnji_userinfo" = "Dear players：";
+"wfnji_email_info" = " If you have any questions , please do not hesitate to get in touch with us! We will be happy to help you!";
+"wfnji_email_address"= "Email:";
+"wfnji_login_fast_tips"= "In Guest Mode, the In-game data will be lost After uninstalling and reinstalling the game. Are you sure to sign in with the Guest Mode? ";
+"wfnji_login_cancel" = "Cancel";
+"wfnji_exit_tips" = "Notification";
+"wfnji_loading_tips"="Loading…";
+"wfnji_login_loading" = "Loading…";
+"wfnji_wecolome"="Welcome to the game";
+"wfnji_payinfo"="Operation orders too frequently, please try again later～";
+"wfnji_orderfailur"="Generate the order failed ～";

@@ -1,0 +1,21 @@
+/* 
+  wfnji.strings
+  xytgumetechnology
+
+  Created by GM on 2019/1/2.
+  Copyright © 2019年 gumo. All rights reserved.
+*/
+"wfnji_change_acount"="切换账号";
+"wfnji_choose_logintype"="请选择登入方式";
+"wfnji_login_fast"="游客访问";
+"wfnji_userinfo"="尊敬的用户：";
+"wfnji_email_info"="尊敬的用户，如果您有任何问题，请发邮件联系我们，我们很乐意为您提供帮助。";
+"wfnji_email_address"="邮箱地址：";
+"wfnji_login_fast_tips"="以游客访问方式登入，在卸载APP或是重新安装游戏，将会丢失游戏内所有数据，确定以游客访问登入吗？";
+"wfnji_login_cancel"="取消";
+"wfnji_exit_tips"="温馨提示";
+"wfnji_loading_tips"="玩命加载中...";
+"wfnji_login_loading"="加载中...";
+"wfnji_wecolome"="欢迎进入游戏";
+"wfnji_payinfo"="操作訂單過於頻繁請稍後重試~";
+"wfnji_orderfailur"="生成订单失败～";

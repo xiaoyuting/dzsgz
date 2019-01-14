@@ -1,0 +1,22 @@
+/* 
+  wfnji.strings
+  xytgumetechnology
+
+  Created by GM on 2019/1/2.
+  Copyright © 2019年 gumo. All rights reserved.
+*/
+"app_name"="我在三國當城主";
+"wfnji_change_acount" = "切換賬號";
+"wfnji_choose_logintype" = "請選擇登入方式";
+"wfnji_login_fast" = "遊客訪問";
+"wfnji_userinfo" = "尊敬的用戶：";
+"wfnji_email_info" = " 如果您有任何問題，請發郵件聯繫我們，我們很樂意為您提供幫助。";
+"wfnji_email_address"= "郵箱地址：";
+"wfnji_login_fast_tips"= "以遊客訪問方式登入，在卸載APP或是重新安裝遊戲，將會丟失遊戲內所有數據，確定以遊客訪問登入嗎？";
+"wfnji_login_cancel" = "取消";
+"wfnji_exit_tips" = "溫馨提示";
+"wfnji_loading_tips"="玩命載入中...";
+"wfnji_login_loading" = "載入中...";
+"wfnji_wecolome"="歡迎進入遊戲";
+"wfnji_payinfo"="操作訂單過於頻繁請稍後重試~";
+"wfnji_orderfailur"="生成訂單失敗～";
