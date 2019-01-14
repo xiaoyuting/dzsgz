@@ -1,0 +1,26 @@
+//
+//  xiaoyutingPrefixHeader.pch
+//  ThreeKingdoms
+//
+//  Created by GM on 2019/1/7.
+//  Copyright © 2019年 tencentload. All rights reserved.
+//
+
+#ifndef xiaoyutingPrefixHeader_pch
+#define xiaoyutingPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UtilsMacros.h"
+#import "URLMacros.h"
+#import "FontAndColorMacros.h"
+#import "ThirdMacros.h"
+#import "CommonMacros.h"
+
+
+
+
+
+ 
+ 
+#endif /* xiaoyutingPrefixHeader_pch */
