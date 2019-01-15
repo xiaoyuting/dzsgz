@@ -322,7 +322,6 @@
 		879B40B121E35C2E007EB8AE /* viewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewModel.m; sourceTree = "<group>"; };
 		879B40B321E35C2E007EB8AE /* model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = model.m; sourceTree = "<group>"; };
 		879B40B421E35C2E007EB8AE /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
-		879B40F121E35CFC007EB8AE /* xiaoyutingPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xiaoyutingPrefixHeader.pch; sourceTree = "<group>"; };
 		879B40F221E471D7007EB8AE /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		879B40F421E476C7007EB8AE /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 		879B40F521E476C7007EB8AE /* GridListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridListCollectionViewCell.h; sourceTree = "<group>"; };
@@ -352,6 +351,7 @@
 		879B411021E47935007EB8AE /* iPhone Settings-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Settings-29@2x.png"; sourceTree = "<group>"; };
 		879B411121E47935007EB8AE /* iPad Settings-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Settings-29.png"; sourceTree = "<group>"; };
 		87A1481021EDF8CF0023F34C /* xytgumetechnology.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = xytgumetechnology.framework; sourceTree = "<group>"; };
+		87A1481721EDFE280023F34C /* xiaoyuting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xiaoyuting-Prefix.pch"; sourceTree = "<group>"; };
 		DE0AC8858AB4B53313613E59 /* Pods-dzsgz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dzsgz.release.xcconfig"; path = "Pods/Target Support Files/Pods-dzsgz/Pods-dzsgz.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -419,7 +419,6 @@
 		87880CE321DF0F5100D7A275 /* dzsgz */ = {
 			isa = PBXGroup;
 			children = (
-				879B40F121E35CFC007EB8AE /* xiaoyutingPrefixHeader.pch */,
 				879B405721E35C2D007EB8AE /* ActivityGroup */,
 				879B403621E35C2D007EB8AE /* Base */,
 				879B405021E35C2D007EB8AE /* Define */,
@@ -455,6 +454,7 @@
 				879B3EF221DF650C007EB8AE /* InfoPlist.strings */,
 				87880CF321DF0F5600D7A275 /* main.m */,
 				87880CFA21DF368700D7A275 /* SDK */,
+				87A1481721EDFE280023F34C /* xiaoyuting-Prefix.pch */,
 			);
 			path = dzsgz;
 			sourceTree = "<group>";
@@ -1467,8 +1467,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/dzsgz/SDK",
 				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/gm/Desktop/dzsgz/dzsgz/xiaoyutingPrefixHeader.pch;
+				GCC_PREFIX_HEADER = "/Users/gm/dzsgz/dzsgz/xiaoyuting-Prefix.pch";
 				INFOPLIST_FILE = dzsgz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1500,8 +1501,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/dzsgz/SDK",
 				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/gm/Desktop/dzsgz/dzsgz/xiaoyutingPrefixHeader.pch;
+				GCC_PREFIX_HEADER = "/Users/gm/dzsgz/dzsgz/xiaoyuting-Prefix.pch";
 				INFOPLIST_FILE = dzsgz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
