@@ -22,7 +22,6 @@
 		87880D1921DF38D900D7A275 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87880D1821DF38D900D7A275 /* Security.framework */; };
 		87880D1B21DF38E100D7A275 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87880D1A21DF38E000D7A275 /* AdSupport.framework */; };
 		87880D1D21DF38EB00D7A275 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87880D1C21DF38EB00D7A275 /* StoreKit.framework */; };
-		87880D2321DF3D4E00D7A275 /* xytgumetechnology.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87880D2221DF3D4E00D7A275 /* xytgumetechnology.framework */; };
 		879B3DB121DF3EA3007EB8AE /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879B3DAC21DF3EA3007EB8AE /* GoogleSignInDependencies.framework */; };
 		879B3DB221DF3EA3007EB8AE /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 879B3DAD21DF3EA3007EB8AE /* GoogleSignIn.bundle */; };
 		879B3DB321DF3EA3007EB8AE /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879B3DAE21DF3EA3007EB8AE /* GoogleSignIn.framework */; };
@@ -144,6 +143,7 @@
 		879B412421E47935007EB8AE /* iPhone App-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 879B410F21E47935007EB8AE /* iPhone App-60@3x.png */; };
 		879B412521E47935007EB8AE /* iPhone Settings-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 879B411021E47935007EB8AE /* iPhone Settings-29@2x.png */; };
 		879B412621E47935007EB8AE /* iPad Settings-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 879B411121E47935007EB8AE /* iPad Settings-29.png */; };
+		87A1481121EDF8CF0023F34C /* xytgumetechnology.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A1481021EDF8CF0023F34C /* xytgumetechnology.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -168,7 +168,6 @@
 		87880D1821DF38D900D7A275 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		87880D1A21DF38E000D7A275 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		87880D1C21DF38EB00D7A275 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		87880D2221DF3D4E00D7A275 /* xytgumetechnology.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = xytgumetechnology.framework; sourceTree = "<group>"; };
 		879B3DAC21DF3EA3007EB8AE /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
 		879B3DAD21DF3EA3007EB8AE /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
 		879B3DAE21DF3EA3007EB8AE /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
@@ -352,6 +351,7 @@
 		879B410F21E47935007EB8AE /* iPhone App-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone App-60@3x.png"; sourceTree = "<group>"; };
 		879B411021E47935007EB8AE /* iPhone Settings-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Settings-29@2x.png"; sourceTree = "<group>"; };
 		879B411121E47935007EB8AE /* iPad Settings-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Settings-29.png"; sourceTree = "<group>"; };
+		87A1481021EDF8CF0023F34C /* xytgumetechnology.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = xytgumetechnology.framework; sourceTree = "<group>"; };
 		DE0AC8858AB4B53313613E59 /* Pods-dzsgz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dzsgz.release.xcconfig"; path = "Pods/Target Support Files/Pods-dzsgz/Pods-dzsgz.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -366,10 +366,10 @@
 				87880D0921DF36C800D7A275 /* FBSDKCoreKit.framework in Frameworks */,
 				87880D0C21DF36C800D7A275 /* Bolts.framework in Frameworks */,
 				879B3E0721DF40E8007EB8AE /* libEgretWebViewLib.a in Frameworks */,
+				87A1481121EDF8CF0023F34C /* xytgumetechnology.framework in Frameworks */,
 				7A9F7C66A927214973CFD0AF /* libPods-dzsgz.a in Frameworks */,
 				879B3DB421DF3EA3007EB8AE /* LineSDK.framework in Frameworks */,
 				879B3DB121DF3EA3007EB8AE /* GoogleSignInDependencies.framework in Frameworks */,
-				87880D2321DF3D4E00D7A275 /* xytgumetechnology.framework in Frameworks */,
 				87880D1021DF36C800D7A275 /* FBSDKLoginKit.framework in Frameworks */,
 				879B3DB321DF3EA3007EB8AE /* GoogleSignIn.framework in Frameworks */,
 			);
@@ -462,12 +462,12 @@
 		87880CFA21DF368700D7A275 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
+				87A1481021EDF8CF0023F34C /* xytgumetechnology.framework */,
 				879B3DAD21DF3EA3007EB8AE /* GoogleSignIn.bundle */,
 				879B3DAE21DF3EA3007EB8AE /* GoogleSignIn.framework */,
 				879B3DAC21DF3EA3007EB8AE /* GoogleSignInDependencies.framework */,
 				879B3DAF21DF3EA3007EB8AE /* LineSDK.framework */,
 				879B3DB021DF3EA3007EB8AE /* LineSDKResource.bundle */,
-				87880D2221DF3D4E00D7A275 /* xytgumetechnology.framework */,
 				87880D0221DF36C800D7A275 /* Bolts.framework */,
 				87880CFE21DF36C700D7A275 /* FBSDKCoreKit.framework */,
 				87880D0621DF36C800D7A275 /* FBSDKLoginKit.framework */,
@@ -1459,6 +1459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7S8TUQF6VZ;
 				ENABLE_BITCODE = NO;
@@ -1480,6 +1481,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.dzsgz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1490,6 +1492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7S8TUQF6VZ;
 				ENABLE_BITCODE = NO;
@@ -1511,6 +1514,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.dzsgz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
