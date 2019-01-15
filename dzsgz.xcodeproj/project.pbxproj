@@ -1079,7 +1079,6 @@
 				87880CDE21DF0F5100D7A275 /* Frameworks */,
 				87880CDF21DF0F5100D7A275 /* Resources */,
 				1C0BE3C111C9BE04746B408D /* [CP] Copy Pods Resources */,
-				87CDE90721EC9888005228D9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1246,23 +1245,6 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
-		};
-		87CDE90721EC9888005228D9 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nPROJECT=dzsgz.xcodeproj\nSCHEME=dzsgz\nCONFIGURATION =Release\nSDK=12.1\n# Additional build options\nXCODEBUILD_OPTS=\"\"\nCLASS_GUARD_OPTS=\"-i IgnoredSymbol -F !ExcludedClass\"\n\n# In case of using Xcode >= 6 and SDK >= 8\nCLASS_GUARD_OPTS_SDK=\"--sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator$SDK.sdk\"\n\n####################################################\n# BUILD SCRIPT STARTS HERE\n####################################################\n\n# Just in case\necho \"WARNING: This will wipe all your not commited changes in your repository\"\necho \"Press Ctrl-C to Cancel or Enter to proceed.\"\nread\n\nfunction echo_and_run() {\necho \"$@\"\n\"$@\"\n}\n\n# Jump to directory where obfuscate script is located\npushd $(dirname $0)\n\n# Symbols file path\nSYMBOLS_FILE=\"$PWD/symbols.h\"\n\n# Clean current workspace\necho_and_run git reset --hard\necho_and_run git clean -fdx\n\n# Just in case: wipe build/\nrm -rf build/\n\n# Automatically detect PODS\n[[ -f Podfile ]] && [[ ! -f Pods/Manifest.lock ]] && pod install\n[[ -f Pods/Pods.xcodeproj/project.pbxproj ]] && CLASS_GUARD_OPTS=\"$CLASS_GUARD_OPTS -P Pods/Pods.xcodeproj/project.pbxproj\"\n\n# Build project to fetch symbols\n[[ -n \"$WORKSPACE\" ]] && XCODEBUILD_OPTS=\"$XCODEBUILD_OPTS -workspace $WORKSPACE\"\n[[ -n \"$PROJECT\" ]] && XCODEBUILD_OPTS=\"$XCODEBUILD_OPTS -project $PROJECT\"\n[[ -n \"$SCHEME\" ]] && XCODEBUILD_OPTS=\"$XCODEBUILD_OPTS -scheme $SCHEME\"\n[[ -n \"$CONFIGURATION\" ]] && XCODEBUILD_OPTS=\"$XCODEBUILD_OPTS -configuration $CONFIGURATION\"\n\nxcodeversion=`xcodebuild -version | grep -oE '^Xcode\\s+\\d+' | grep -oE '\\d+'`\nif ((xcodeversion > 5)) || ((SDK >= 8.0))\nthen\n[[ -n \"$SDK\" ]] && XCODEBUILD_OPTS=\"$XCODEBUILD_OPTS -sdk iphonesimulator$SDK\"\nelse\n[[ -n \"$SDK\" ]] && XCODEBUILD_OPTS=\"$XCODEBUILD_OPTS -sdk iphoneos$SDK\"\n[[ -n \"$SDK\" ]] && CLASS_GUARD_OPTS_SDK=\"--sdk-ios $SDK\"\nfi\n\necho_and_run xcodebuild $XCODEBUILD_OPTS \\\nclean build \\\n-derivedDataPath build\nOBJROOT=build/ \\\nSYMROOT=build/\n\n# Insert SYMBOLS_FILE to all .pch found in project\necho_and_run find . -name '*-Prefix.pch' -exec sed -i .bak '1i\\\n'\"#import \\\"$SYMBOLS_FILE\\\"\n\" \"{}\" \\;\n\n# Obfuscate project\nappsNumber=0;\nwhile read app\ndo\nif ((appsNumber > 0))\nthen\necho \"\"\necho \"\"\necho \"You cannot use this tool when there is more than one .app file in products. Otherwise, only the first one will be used for obfuscation.\"\necho \"\"\necho \"\"\nexit 1\nfi\n((appsNumber+=1))\n\nTARGET=$(basename \"$app\" .app)\necho \"Obfuscating $TARGET in $app...\"\necho_and_run ios-class-guard \\\n$CLASS_GUARD_OPTS_SDK \\\n$CLASS_GUARD_OPTS \\\n-O \"$SYMBOLS_FILE\" \\\n\"$app/$TARGET\"\ndone < <(find build/ -name '*.app')\n\necho \"\"\necho \"\"\necho \"Congratulations! Obfuscation completed. You can now build, test and archive Your project using Xcode, Xctool or Xcodebuid...\"\necho \"\"\necho \"\"\n\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
