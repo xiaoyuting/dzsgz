@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>0B83D8EF-F643-499D-9438-63D736B2D585</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0B83D8EF-F643-499D-9438-63D736B2D585.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>dzsgz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>dzsgz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning project dzsgz with scheme dzsgz and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>569297461.80507803</real>
+			<key>timeStoppedRecording</key>
+			<real>569297461.983603</real>
+			<key>title</key>
+			<string>Cleaning project dzsgz with scheme dzsgz and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>0B83D8EF-F643-499D-9438-63D736B2D585</string>
+		</dict>
+		<key>CDB40DC0-6AF6-4592-905E-467B56FB19A9</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CDB40DC0-6AF6-4592-905E-467B56FB19A9.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>dzsgz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>dzsgz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project dzsgz with scheme dzsgz and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>569297461.98463595</real>
+			<key>timeStoppedRecording</key>
+			<real>569297463.66215396</real>
+			<key>title</key>
+			<string>Building project dzsgz with scheme dzsgz and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>CDB40DC0-6AF6-4592-905E-467B56FB19A9</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
