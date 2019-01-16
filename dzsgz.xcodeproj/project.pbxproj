@@ -117,7 +117,6 @@
 		879B40ED21E35C2F007EB8AE /* GMmeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 879B40AD21E35C2E007EB8AE /* GMmeVC.m */; };
 		879B40EF21E35C2F007EB8AE /* viewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 879B40B121E35C2E007EB8AE /* viewModel.m */; };
 		879B40F021E35C2F007EB8AE /* model.m in Sources */ = {isa = PBXBuildFile; fileRef = 879B40B321E35C2E007EB8AE /* model.m */; };
-		879B40F321E471D7007EB8AE /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 879B40F221E471D7007EB8AE /* bg.jpg */; };
 		879B40FA21E476C9007EB8AE /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 879B40F421E476C7007EB8AE /* NSObject+Property.m */; };
 		879B40FB21E476C9007EB8AE /* GridListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 879B40F821E476C8007EB8AE /* GridListCollectionViewCell.m */; };
 		879B40FC21E476C9007EB8AE /* GridListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 879B40F921E476C8007EB8AE /* GridListModel.m */; };
@@ -320,7 +319,6 @@
 		879B40B121E35C2E007EB8AE /* viewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewModel.m; sourceTree = "<group>"; };
 		879B40B321E35C2E007EB8AE /* model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = model.m; sourceTree = "<group>"; };
 		879B40B421E35C2E007EB8AE /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
-		879B40F221E471D7007EB8AE /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		879B40F421E476C7007EB8AE /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 		879B40F521E476C7007EB8AE /* GridListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridListCollectionViewCell.h; sourceTree = "<group>"; };
 		879B40F621E476C8007EB8AE /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
@@ -443,7 +441,6 @@
 				879B40F921E476C8007EB8AE /* GridListModel.m */,
 				879B40F621E476C8007EB8AE /* NSObject+Property.h */,
 				879B40F421E476C7007EB8AE /* NSObject+Property.m */,
-				879B40F221E471D7007EB8AE /* bg.jpg */,
 				87880CEA21DF0F5100D7A275 /* Main.storyboard */,
 				87880CED21DF0F5500D7A275 /* Assets.xcassets */,
 				87880CEF21DF0F5500D7A275 /* LaunchScreen.storyboard */,
@@ -1132,7 +1129,6 @@
 				879B3F0521DF6CD6007EB8AE /* 1242x2688.jpg in Resources */,
 				879B3E0621DF40E8007EB8AE /* bg.jpg in Resources */,
 				879B3F0421DF6CD6007EB8AE /* 1242x2208.jpg in Resources */,
-				879B40F321E471D7007EB8AE /* bg.jpg in Resources */,
 				879B3DFD21DF40E8007EB8AE /* res.min.js in Resources */,
 				879B40E721E35C2F007EB8AE /* meCell.xib in Resources */,
 				879B40C521E35C2E007EB8AE /* 雪@3x.png in Resources */,

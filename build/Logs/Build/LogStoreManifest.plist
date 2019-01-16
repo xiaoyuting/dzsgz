@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>0B83D8EF-F643-499D-9438-63D736B2D585</key>
+		<key>0E32E9CC-D3C3-4B9A-8CED-B40B61C08DA3</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,36 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>0B83D8EF-F643-499D-9438-63D736B2D585.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>dzsgz project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>dzsgz</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Cleaning project dzsgz with scheme dzsgz and configuration Release</string>
-			<key>timeStartedRecording</key>
-			<real>569297461.80507803</real>
-			<key>timeStoppedRecording</key>
-			<real>569297461.983603</real>
-			<key>title</key>
-			<string>Cleaning project dzsgz with scheme dzsgz and configuration Release</string>
-			<key>uniqueIdentifier</key>
-			<string>0B83D8EF-F643-499D-9438-63D736B2D585</string>
-		</dict>
-		<key>CDB40DC0-6AF6-4592-905E-467B56FB19A9</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>CDB40DC0-6AF6-4592-905E-467B56FB19A9.xcactivitylog</string>
+			<string>0E32E9CC-D3C3-4B9A-8CED-B40B61C08DA3.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>E</string>
 			<key>schemeIdentifier-containerName</key>
@@ -56,13 +27,42 @@
 			<key>signature</key>
 			<string>Building project dzsgz with scheme dzsgz and configuration Release</string>
 			<key>timeStartedRecording</key>
-			<real>569297461.98463595</real>
+			<real>569297802.106143</real>
 			<key>timeStoppedRecording</key>
-			<real>569297463.66215396</real>
+			<real>569297803.68558705</real>
 			<key>title</key>
 			<string>Building project dzsgz with scheme dzsgz and configuration Release</string>
 			<key>uniqueIdentifier</key>
-			<string>CDB40DC0-6AF6-4592-905E-467B56FB19A9</string>
+			<string>0E32E9CC-D3C3-4B9A-8CED-B40B61C08DA3</string>
+		</dict>
+		<key>D7EEF66C-7B8C-47D5-92DA-BCB17BE099E2</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D7EEF66C-7B8C-47D5-92DA-BCB17BE099E2.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>dzsgz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>dzsgz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning project dzsgz with scheme dzsgz and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>569297801.95063996</real>
+			<key>timeStoppedRecording</key>
+			<real>569297802.10501599</real>
+			<key>title</key>
+			<string>Cleaning project dzsgz with scheme dzsgz and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>D7EEF66C-7B8C-47D5-92DA-BCB17BE099E2</string>
 		</dict>
 	</dict>
 </dict>
